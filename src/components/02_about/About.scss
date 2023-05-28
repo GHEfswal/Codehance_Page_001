@@ -1,12 +1,10 @@
 .topRightSection {
-  // width: 700px;
   background-color: white;
   border-radius: 10px;
 }
 
 .topRightContent {
   padding: 20px;
-  // margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -31,10 +29,6 @@
 .categories {
   display: flex;
   gap: 20px;
-
-  // @media (max-width: 1190px) {
-  //   flex-direction: column;
-  // }
 
   li {
     border: solid 2px lightgrey;

@@ -20,8 +20,6 @@ export default function Lesson() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-
-        {/* <img className="vimage1" src={VImage} alt="" /> */}
       </div>
       <div className="coursecompletion">
         <div className="coursecompletion__courserating">

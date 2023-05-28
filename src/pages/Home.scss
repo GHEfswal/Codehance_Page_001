@@ -23,27 +23,19 @@
     &__Left {
       grid-row: 1 / 2;
       grid-column: 1 / 2;
-      // border: dotted 3px red;
-      // height: fit-content;
     }
 
     &__Right {
       grid-row: 2 / 3;
       grid-column: 1 / 2;
-      // border: dotted 3px red;
     }
 
     .topRightContent {
-      // padding: 20px;
-      // margin-top: 20px;
       margin-bottom: 5px;
     }
 
     .lessonNoteArea {
-      // padding: 20px;
-      // background-color: white;
       margin-top: 5px;
-      // border-radius: 10px;
     }
   }
 }
