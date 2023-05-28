@@ -1,0 +1,52 @@
+.bottomRightSection {
+  // width: 700px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bottomRightContent {
+  padding: 20px;
+  // margin-top: 20px;
+
+  h5 {
+    margin: 0;
+  }
+}
+
+.partGrouping {
+  border: solid 2px lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+
+  &__Menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__courseProgress {
+    padding-bottom: 20px;
+    border-bottom: solid 2px lightgrey;
+    color: #a5a5a5;
+  }
+
+  &__courseTitles {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+
+    h5 {
+      margin-bottom: 20px;
+      font-weight: normal;
+
+      div {
+        text-indent: 23px;
+        font-weight: normal;
+        color: #a5a5a5;
+      }
+    }
+  }
+
+  &__toggle:checked ~ &__courseTitles {
+    display: block;
+  }
+}

@@ -1,0 +1,120 @@
+.vimage1 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.coursecompletion {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.courserating {
+  width: 160px;
+}
+
+.actionbuttons {
+  display: flex;
+  gap: 10px;
+}
+
+.emojis {
+  display: flex;
+  margin-top: 5px;
+  gap: 20px;
+}
+
+.downloadbtn {
+  border: solid;
+  border-width: 2px;
+  border-color: #46bea1;
+  color: #46bea1;
+  border-radius: 10px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 150px;
+  height: 45px;
+}
+.downloadbtn img {
+  padding-left: 10px;
+  width: 12px;
+}
+.downloadbtn__info {
+  display: inline-flex;
+  margin: 0;
+}
+
+.completebtn {
+  border: none;
+  border-color: #46bea1;
+  background-color: #46bea1;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  height: 45px;
+}
+.completebtn img {
+  margin-left: 10px;
+  width: 16px;
+}
+.completebtn__info {
+  display: inline-flex;
+  margin: 0;
+}
+
+.lessonNoteArea {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.lessonNotetext {
+  margin-top: 10px;
+  width: 100%;
+  height: 140px;
+}
+
+.resetsave {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.reset {
+  border: solid;
+  border-width: 2px;
+  padding: 12px;
+  border-color: #46bea1;
+  color: #46bea1;
+  background-color: white;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+}
+
+.save {
+  border: none;
+  padding: 12px;
+  border-color: #46bea1;
+  background-color: #46bea1;
+  color: white;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+}/*# sourceMappingURL=Lesson.css.map */

@@ -1,0 +1,15 @@
+.comps {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.comps__Left {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.comps__Right {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}/*# sourceMappingURL=Home.css.map */
